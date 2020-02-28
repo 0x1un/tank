@@ -3,11 +3,6 @@ package rest
 import (
 	"archive/zip"
 	"fmt"
-	"github.com/eyebluecn/tank/code/core"
-	"github.com/eyebluecn/tank/code/tool/download"
-	"github.com/eyebluecn/tank/code/tool/i18n"
-	"github.com/eyebluecn/tank/code/tool/result"
-	"github.com/eyebluecn/tank/code/tool/util"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -16,6 +11,13 @@ import (
 	"regexp"
 	"strings"
 	"time"
+
+	"github.com/0x1un/boxes/chatbot"
+	"github.com/eyebluecn/tank/code/core"
+	"github.com/eyebluecn/tank/code/tool/download"
+	"github.com/eyebluecn/tank/code/tool/i18n"
+	"github.com/eyebluecn/tank/code/tool/result"
+	"github.com/eyebluecn/tank/code/tool/util"
 )
 
 /**
@@ -315,7 +317,12 @@ func (this *MatterService) Upload(request *http.Request, file io.Reader, user *U
 	fileSize, err := io.Copy(destFile, file)
 	this.PanicError(err)
 
-	this.logger.Info("upload %s %v ", filename, util.HumanFileSize(fileSize))
+	humanFileSize := util.HumanFileSize(fileSize)
+
+	// token list, atuser list, isatall?, text
+	// send message on upload
+	chatbot.Send([]string{}, []string{}, false, fmt.Sprintf("%s 用户:%s(%s) 上传了 FileName: %s , 文件大小为: %v ", time.Now().Format("2006-01-02 15:04:05"), user.Username, util.GetIpAddress(request), filename, humanFileSize))
+	this.logger.Info("upload %s %v ", filename, humanFileSize)
 
 	//check the size limit.
 	if user.SizeLimit >= 0 {

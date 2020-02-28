@@ -1,0 +1,162 @@
+[INFO ]19:57:03 tank_logger.go:28: [cron job] Every day 00:00 maintain log file.
+[WARN ]19:57:03 tank_config.go:114: cannot find config file /home/aumujun/SC/tank/conf/tank.json, installation will start!
+[INFO ]19:57:03 tank_application.go:159: App started at http://localhost:6010
+[ERROR]19:57:05 tank_router.go:98: panic on tank_router.go:208 404 not found:/home/aumujun/SC/tank/html/index.html
+[INFO ]19:57:05 footprint_service.go:91: Ip:[ Cost:0 Uri:/ Params:{}
+[ERROR]19:57:05 tank_router.go:98: panic on tank_router.go:208 404 not found:/home/aumujun/SC/tank/html/index.html
+[INFO ]19:57:05 footprint_service.go:91: Ip:[ Cost:0 Uri:/favicon.ico Params:{}
+[ERROR]19:57:14 tank_router.go:98: panic on tank_router.go:208 404 not found:/home/aumujun/SC/tank/html/index.html
+[INFO ]19:57:14 footprint_service.go:91: Ip:[ Cost:0 Uri:/ Params:{}
+[INFO ]19:59:47 tank_logger.go:28: [cron job] Every day 00:00 maintain log file.
+[WARN ]19:59:47 tank_config.go:114: cannot find config file /home/aumujun/SC/tank/conf/tank.json, installation will start!
+[INFO ]19:59:47 tank_application.go:159: App started at http://localhost:6010
+[ERROR]20:00:01 tank_router.go:98: panic on tank_router.go:208 404 not found:/home/aumujun/SC/tank/html/index.html
+[INFO ]20:00:01 footprint_service.go:91: Ip:[ Cost:0 Uri:/ Params:{}
+[INFO ]20:00:24 tank_logger.go:28: [cron job] Every day 00:00 maintain log file.
+[WARN ]20:00:24 tank_config.go:114: cannot find config file /home/aumujun/SC/tank/conf/tank.json, installation will start!
+[INFO ]20:00:24 tank_application.go:159: App started at http://localhost:6010
+[ERROR]20:00:29 tank_router.go:98: panic on tank_router.go:189 application not installed
+[INFO ]20:00:29 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]20:01:07 install_controller.go:110: Connect MySQL tank:goodluck@123@tcp(172.16.0.6:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:01:07 tank_router.go:98: panic on install_controller.go:114 Error 1045: Access denied for user 'tank'@'172.16.0.1' (using password: YES)
+[INFO ]20:01:07 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/install/verify Params:{"mysqlHost":["172.16.0.6"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["tank"]}
+[INFO ]20:01:11 install_controller.go:110: Connect MySQL tank:goodluck@123@tcp(172.16.0.6:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:01:11 tank_router.go:98: panic on install_controller.go:114 Error 1045: Access denied for user 'tank'@'172.16.0.1' (using password: YES)
+[INFO ]20:01:11 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/install/verify Params:{"mysqlHost":["172.16.0.6"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["tank"]}
+[INFO ]20:01:16 install_controller.go:110: Connect MySQL tank:goodluck@123@tcp(172.16.0.6:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:01:16 tank_router.go:98: panic on install_controller.go:114 Error 1045: Access denied for user 'tank'@'172.16.0.1' (using password: YES)
+[INFO ]20:01:16 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/install/verify Params:{"mysqlHost":["172.16.0.6"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["tank"]}
+[INFO ]20:01:57 install_controller.go:110: Connect MySQL tank:goodluck@123@tcp(172.16.0.6:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:01:57 tank_router.go:98: panic on install_controller.go:114 Error 1045: Access denied for user 'tank'@'172.16.0.1' (using password: YES)
+[INFO ]20:01:57 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/install/verify Params:{"mysqlHost":["172.16.0.6"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["tank"]}
+[INFO ]20:01:58 install_controller.go:110: Connect MySQL tank:goodluck@123@tcp(172.16.0.6:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:01:58 tank_router.go:98: panic on install_controller.go:114 Error 1045: Access denied for user 'tank'@'172.16.0.1' (using password: YES)
+[INFO ]20:01:58 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/install/verify Params:{"mysqlHost":["172.16.0.6"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["tank"]}
+[INFO ]20:01:58 install_controller.go:110: Connect MySQL tank:goodluck@123@tcp(172.16.0.6:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:01:58 tank_router.go:98: panic on install_controller.go:114 Error 1045: Access denied for user 'tank'@'172.16.0.1' (using password: YES)
+[INFO ]20:01:58 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/install/verify Params:{"mysqlHost":["172.16.0.6"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["tank"]}
+[INFO ]20:01:58 install_controller.go:110: Connect MySQL tank:goodluck@123@tcp(172.16.0.6:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:01:58 tank_router.go:98: panic on install_controller.go:114 Error 1045: Access denied for user 'tank'@'172.16.0.1' (using password: YES)
+[INFO ]20:01:58 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/install/verify Params:{"mysqlHost":["172.16.0.6"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["tank"]}
+[INFO ]20:01:58 install_controller.go:110: Connect MySQL tank:goodluck@123@tcp(172.16.0.6:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:01:58 tank_router.go:98: panic on install_controller.go:114 Error 1045: Access denied for user 'tank'@'172.16.0.1' (using password: YES)
+[INFO ]20:01:58 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/install/verify Params:{"mysqlHost":["172.16.0.6"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["tank"]}
+[INFO ]20:02:38 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(172.16.0.6:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:02:38 tank_router.go:98: panic on install_controller.go:114 Error 1049: Unknown database 'tank'
+[INFO ]20:02:38 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/install/verify Params:{"mysqlHost":["172.16.0.6"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["tank"],"mysqlUsername":["root"]}
+[INFO ]20:08:23 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(172.16.0.6:3306)/blue-tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:08:23 tank_router.go:98: panic on install_controller.go:114 Error 1049: Unknown database 'blue-tank'
+[INFO ]20:08:23 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/install/verify Params:{"mysqlHost":["172.16.0.6"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["blue-tank"],"mysqlUsername":["root"]}
+[INFO ]20:08:31 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(172.16.0.6:3306)/blue-tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:08:31 tank_router.go:98: panic on install_controller.go:114 Error 1049: Unknown database 'blue-tank'
+[INFO ]20:08:31 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/install/verify Params:{"mysqlHost":["172.16.0.6"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["blue-tank"],"mysqlUsername":["root"]}
+[INFO ]20:08:41 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/blue-tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:08:41 tank_router.go:98: panic on install_controller.go:114 Error 1049: Unknown database 'blue-tank'
+[INFO ]20:08:41 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/install/verify Params:{"mysqlHost":["127.0.0.1"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["blue-tank"],"mysqlUsername":["root"]}
+[INFO ]20:08:44 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/blue-tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:08:44 tank_router.go:98: panic on install_controller.go:114 Error 1049: Unknown database 'blue-tank'
+[INFO ]20:08:44 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/install/verify Params:{"mysqlHost":["127.0.0.1"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["blue-tank"],"mysqlUsername":["root"]}
+[INFO ]20:08:44 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/blue-tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:08:44 tank_router.go:98: panic on install_controller.go:114 Error 1049: Unknown database 'blue-tank'
+[INFO ]20:08:44 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/install/verify Params:{"mysqlHost":["127.0.0.1"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["blue-tank"],"mysqlUsername":["root"]}
+[INFO ]20:08:44 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/blue-tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:08:44 tank_router.go:98: panic on install_controller.go:114 Error 1049: Unknown database 'blue-tank'
+[INFO ]20:08:44 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/install/verify Params:{"mysqlHost":["127.0.0.1"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["blue-tank"],"mysqlUsername":["root"]}
+[INFO ]20:11:46 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/blue-tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:11:46 tank_router.go:98: panic on install_controller.go:114 Error 1049: Unknown database 'blue-tank'
+[INFO ]20:11:46 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/install/verify Params:{"mysqlHost":["127.0.0.1"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["blue-tank"],"mysqlUsername":["root"]}
+[INFO ]20:11:48 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/blue-tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:11:48 tank_router.go:98: panic on install_controller.go:114 Error 1049: Unknown database 'blue-tank'
+[INFO ]20:11:48 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/install/verify Params:{"mysqlHost":["127.0.0.1"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["blue-tank"],"mysqlUsername":["root"]}
+[INFO ]20:11:57 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/blue-tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:11:57 tank_router.go:98: panic on install_controller.go:114 Error 1049: Unknown database 'blue-tank'
+[INFO ]20:11:57 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/install/verify Params:{"mysqlHost":["127.0.0.1"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["blue-tank"],"mysqlUsername":["root"]}
+[INFO ]20:11:58 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/blue-tank?charset=utf8&parseTime=True&loc=Local
+[ERROR]20:11:58 tank_router.go:98: panic on install_controller.go:114 Error 1049: Unknown database 'blue-tank'
+[INFO ]20:11:58 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/install/verify Params:{"mysqlHost":["127.0.0.1"],"mysqlPassword":["goodluck@123"],"mysqlPort":["3306"],"mysqlSchema":["blue-tank"],"mysqlUsername":["root"]}
+[INFO ]20:12:05 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/bluetank?charset=utf8&parseTime=True&loc=Local
+[INFO ]20:12:05 install_controller.go:205: Ping DB
+[INFO ]20:12:06 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/bluetank?charset=utf8&parseTime=True&loc=Local
+[INFO ]20:12:18 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/bluetank?charset=utf8&parseTime=True&loc=Local
+[INFO ]20:12:21 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/bluetank?charset=utf8&parseTime=True&loc=Local
+[INFO ]20:12:41 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/bluetank?charset=utf8&parseTime=True&loc=Local
+[INFO ]20:12:42 install_controller.go:110: Connect MySQL root:goodluck@123@tcp(127.0.0.1:3306)/bluetank?charset=utf8&parseTime=True&loc=Local
+[WARN ]20:12:42 tank_config.go:118: read config file /home/aumujun/SC/tank/conf/tank.json
+[INFO ]20:12:42 tank_config.go:150: use config file: /home/aumujun/SC/tank/conf/tank.json
+[INFO ]20:12:42 tank_config.go:151: file storage location: /home/aumujun/SC/tank/matter
+[INFO ]20:12:42 footprint_service.go:97: [cron job] Every day 00:10 delete Footprint data 8 days ago.
+[INFO ]20:12:42 dashboard_service.go:52: [cron job] Everyday 00:05 ETL dashboard data.
+[INFO ]20:12:42 dashboard_service.go:66: ETL dashboard data.
+[INFO ]20:12:42 footprint_service.go:114: Delete footprint data before 2020-02-20 00:00:00
+[INFO ]20:12:42 dashboard_service.go:74: ETL dashboard data from 2020-02-27 00:00:00 to 2020-02-27 23:59:59
+[INFO ]20:12:42 dashboard_service.go:100: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 0, UV = 0, totalUV = 0, matterNum = 0, totalMatterNum = 0
+[INFO ]20:12:42 dashboard_service.go:103: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]20:12:42 footprint_service.go:91: Ip:[ Cost:17 Uri:/api/preference/fetch Params:{}
+[ERROR]22:12:20 tank_router.go:98: panic on user_dao.go:69 invalid connection
+[INFO ]22:12:20 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/user/login Params:{"password":["******"],"username":["toor"]}
+[INFO ]22:12:26 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]22:12:32 footprint_service.go:91: Ip:[ Cost:95 Uri:/api/user/login Params:{"password":["******"],"username":["toor"]}
+[INFO ]22:12:32 footprint_service.go:91: Ip:[ Cost:2 Uri:/api/matter/page Params:{"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["50"],"puuid":["root"],"userUuid":["a75c5962-8ad7-45c4-5bd7-7b6c74924ca1"]}
+[INFO ]22:12:35 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/share/page Params:{"page":["0"],"pageSize":["100"]}
+[INFO ]22:12:37 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/dashboard/page Params:{"orderDt":["DESC"],"page":["0"],"pageSize":["15"]}
+[INFO ]22:12:37 footprint_service.go:91: Ip:[ Cost:2 Uri:/api/dashboard/active/ip/top10 Params:{}
+[INFO ]22:12:37 footprint_service.go:91: Ip:[ Cost:4 Uri:/api/matter/page Params:{"orderTimes":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]22:12:45 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/matter/page Params:{"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["50"],"puuid":["root"],"userUuid":["a75c5962-8ad7-45c4-5bd7-7b6c74924ca1"]}
+[INFO ]22:12:46 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/share/page Params:{"page":["0"],"pageSize":["100"]}
+[INFO ]22:12:48 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/dashboard/page Params:{"orderDt":["DESC"],"page":["0"],"pageSize":["15"]}
+[INFO ]22:12:48 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/dashboard/active/ip/top10 Params:{}
+[INFO ]22:12:48 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/matter/page Params:{"orderTimes":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]22:12:51 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/dashboard/page Params:{"orderDt":["DESC"],"page":["0"],"pageSize":["15"]}
+[INFO ]22:12:51 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/matter/page Params:{"orderTimes":["DESC"],"page":["0"],"pageSize":["10"]}
+[INFO ]22:12:51 footprint_service.go:91: Ip:[ Cost:2 Uri:/api/dashboard/active/ip/top10 Params:{}
+[INFO ]22:12:51 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/user/page Params:{"orderLastTime":["DESC"],"page":["0"],"pageSize":["10"]}
+[WARN ]22:12:54 base_bean.go:49: cache item doesn't exist with sessionId = cc3a7afe-07aa-4773-6b98-7f8a1283e77d
+[INFO ]22:12:54 footprint_service.go:91: Ip:[ Cost:22 Uri:/api/user/logout Params:{}
+[INFO ]22:13:01 footprint_service.go:91: Ip:[ Cost:100 Uri:/api/user/login Params:{"password":["******"],"username":["toor"]}
+[INFO ]22:13:01 footprint_service.go:91: Ip:[ Cost:2 Uri:/api/matter/page Params:{"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["50"],"puuid":["root"],"userUuid":["a75c5962-8ad7-45c4-5bd7-7b6c74924ca1"]}
+[INFO ]22:34:42 tank_logger.go:28: [cron job] Every day 00:00 maintain log file.
+[WARN ]22:34:42 tank_config.go:118: read config file /home/aumujun/SC/tank/conf/tank.json
+[INFO ]22:34:42 tank_config.go:150: use config file: /home/aumujun/SC/tank/conf/tank.json
+[INFO ]22:34:42 tank_config.go:151: file storage location: /home/aumujun/SC/tank/matter
+[INFO ]22:34:42 dashboard_service.go:52: [cron job] Everyday 00:05 ETL dashboard data.
+[INFO ]22:34:42 footprint_service.go:97: [cron job] Every day 00:10 delete Footprint data 8 days ago.
+[INFO ]22:34:42 tank_application.go:159: App started at http://localhost:6010
+[INFO ]22:34:42 dashboard_service.go:66: ETL dashboard data.
+[INFO ]22:34:42 dashboard_service.go:74: ETL dashboard data from 2020-02-27 00:00:00 to 2020-02-27 23:59:59
+[INFO ]22:34:42 footprint_service.go:114: Delete footprint data before 2020-02-20 00:00:00
+[INFO ]22:34:42 dashboard_service.go:79:  2020-02-27 already exits. delete it and insert new one.
+[INFO ]22:34:42 dashboard_service.go:100: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 0, UV = 0, totalUV = 0, matterNum = 0, totalMatterNum = 0
+[INFO ]22:34:42 dashboard_service.go:103: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]22:34:46 footprint_service.go:91: Ip:[ Cost:2 Uri:/api/matter/page Params:{"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["50"],"puuid":["root"],"userUuid":["a75c5962-8ad7-45c4-5bd7-7b6c74924ca1"]}
+[INFO ]22:34:46 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]22:34:55 matter_service.go:320: 2020-02-28 22:34:55 toor 上传了 FileName: v1.2.md , 文件大小为: 3.4kB 
+[INFO ]22:34:55 matter_service.go:322: upload v1.2.md 3.4kB 
+[INFO ]22:34:55 footprint_service.go:91: Ip:[ Cost:46 Uri:/api/matter/upload Params:{"alien":["false"],"privacy":["true"],"puuid":["root"],"userUuid":["a75c5962-8ad7-45c4-5bd7-7b6c74924ca1"]}
+[INFO ]22:34:55 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/matter/page Params:{"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["50"],"puuid":["root"],"userUuid":["a75c5962-8ad7-45c4-5bd7-7b6c74924ca1"]}
+[INFO ]22:42:14 tank_logger.go:28: [cron job] Every day 00:00 maintain log file.
+[WARN ]22:42:14 tank_config.go:118: read config file /home/aumujun/SC/tank/conf/tank.json
+[INFO ]22:42:14 tank_config.go:150: use config file: /home/aumujun/SC/tank/conf/tank.json
+[INFO ]22:42:14 tank_config.go:151: file storage location: /home/aumujun/SC/tank/matter
+[INFO ]22:42:14 dashboard_service.go:52: [cron job] Everyday 00:05 ETL dashboard data.
+[INFO ]22:42:14 footprint_service.go:97: [cron job] Every day 00:10 delete Footprint data 8 days ago.
+[INFO ]22:42:14 tank_application.go:159: App started at http://localhost:6010
+[INFO ]22:42:14 dashboard_service.go:66: ETL dashboard data.
+[INFO ]22:42:14 footprint_service.go:114: Delete footprint data before 2020-02-20 00:00:00
+[INFO ]22:42:14 dashboard_service.go:74: ETL dashboard data from 2020-02-27 00:00:00 to 2020-02-27 23:59:59
+[INFO ]22:42:14 dashboard_service.go:79:  2020-02-27 already exits. delete it and insert new one.
+[INFO ]22:42:14 dashboard_service.go:100: Dashboard Summery 1. invokeNum = 0, totalInvokeNum = 0, UV = 0, totalUV = 0, matterNum = 0, totalMatterNum = 0
+[INFO ]22:42:14 dashboard_service.go:103: Dashboard Summery 2. matterSize = 0, totalMatterSize = 0, cacheSize = 0, totalCacheSize = 0, avgCost = 0
+[INFO ]22:42:18 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/matter/page Params:{"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["50"],"puuid":["root"],"userUuid":["a75c5962-8ad7-45c4-5bd7-7b6c74924ca1"]}
+[INFO ]22:42:18 footprint_service.go:91: Ip:[ Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]22:42:48 matter_service.go:322: 2020-02-28 22:42:48 toor([::1]:40624) 上传了 FileName: v0.0.0-20191107130534-d9b9b2bab950.mod , 文件大小为: 33B 
+[INFO ]22:42:48 matter_service.go:324: upload v0.0.0-20191107130534-d9b9b2bab950.mod 33B 
+[INFO ]22:42:48 footprint_service.go:91: Ip:[ Cost:26 Uri:/api/matter/upload Params:{"alien":["false"],"privacy":["true"],"puuid":["root"],"userUuid":["a75c5962-8ad7-45c4-5bd7-7b6c74924ca1"]}
+[INFO ]22:42:48 footprint_service.go:91: Ip:[ Cost:1 Uri:/api/matter/page Params:{"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["50"],"puuid":["root"],"userUuid":["a75c5962-8ad7-45c4-5bd7-7b6c74924ca1"]}
+[INFO ]22:50:32 footprint_service.go:91: Ip:192.168.0.4 Cost:0 Uri:/api/preference/fetch Params:{}
+[INFO ]22:50:43 footprint_service.go:91: Ip:192.168.0.4 Cost:97 Uri:/api/user/login Params:{"password":["******"],"username":["toor"]}
+[INFO ]22:50:43 footprint_service.go:91: Ip:192.168.0.4 Cost:2 Uri:/api/matter/page Params:{"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["50"],"puuid":["root"],"userUuid":["a75c5962-8ad7-45c4-5bd7-7b6c74924ca1"]}
+[INFO ]22:51:05 matter_service.go:322: 2020-02-28 22:51:05 toor(192.168.0.4:45936) 上传了 FileName: Screenshot_2020-02-28-11-37-18-848_com.sankuai.meituan.jpg , 文件大小为: 369.7kB 
+[INFO ]22:51:05 matter_service.go:324: upload Screenshot_2020-02-28-11-37-18-848_com.sankuai.meituan.jpg 369.7kB 
+[INFO ]22:51:05 footprint_service.go:91: Ip:192.168.0.4 Cost:191 Uri:/api/matter/upload Params:{"alien":["false"],"privacy":["true"],"puuid":["root"],"userUuid":["a75c5962-8ad7-45c4-5bd7-7b6c74924ca1"]}
+[INFO ]22:51:05 footprint_service.go:91: Ip:192.168.0.4 Cost:1 Uri:/api/matter/page Params:{"orderCreateTime":["DESC"],"orderDir":["DESC"],"page":["0"],"pageSize":["50"],"puuid":["root"],"userUuid":["a75c5962-8ad7-45c4-5bd7-7b6c74924ca1"]}
+[INFO ]22:51:05 footprint_service.go:91: Ip:192.168.0.4 Cost:68 Uri:/api/alien/preview/a24c3caf-20ee-4f3f-64bd-95e37f339985/Screenshot_2020-02-28-11-37-18-848_com.sankuai.meituan.jpg Params:{"ir":["fill_100_100"]}

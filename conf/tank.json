@@ -1,0 +1,9 @@
+{
+ "ServerPort": 6010,
+ "MatterPath": "",
+ "MysqlPort": 3306,
+ "MysqlHost": "127.0.0.1",
+ "MysqlSchema": "bluetank",
+ "MysqlUsername": "root",
+ "MysqlPassword": "goodluck@123"
+}
