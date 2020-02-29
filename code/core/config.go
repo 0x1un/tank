@@ -22,6 +22,8 @@ type Config interface {
 	MysqlUrl() string
 	//files storage location.
 	MatterPath() string
+	// dingtalk group's robot id
+	DingRobotTokens() map[string][]string
 	//when installed by user. Write configs to tank.json
 	FinishInstall(mysqlPort int, mysqlHost string, mysqlSchema string, mysqlUsername string, mysqlPassword string)
 }

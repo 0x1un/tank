@@ -34,6 +34,21 @@ type MatterService struct {
 	preferenceService *PreferenceService
 }
 
+func (this *MatterService) SendMsgToDingtalk(user *User, request *http.Request, fname, fsize, action string) {
+	tokens := core.CONFIG.DingRobotTokens()
+	table := make(map[string]string)
+	table["delete"] = "删除"
+	table["upload"] = "上传"
+	if tokens, ok := tokens["robottokens"]; ok {
+
+		chatbot.Send("云盘文件助手", tokens,
+			[]string{},
+			false,
+			fmt.Sprintf("**%s**\n\n > 用户:**%s<%s>** %s了 **%s** , 文件大小为: **%v** ", time.Now().
+				Format("2006-01-02 15:04:05"), user.Username, util.GetIpAddress(request), table[action], fname, fsize))
+	}
+}
+
 func (this *MatterService) Init() {
 	this.BaseBean.Init()
 
@@ -252,6 +267,8 @@ func (this *MatterService) Delete(request *http.Request, matter *Matter, user *U
 
 	this.matterDao.Delete(matter)
 
+	this.SendMsgToDingtalk(user, request, matter.Name, util.HumanFileSize(matter.Size), "delete")
+
 	//re compute the size of Route.
 	this.ComputeRouteSize(matter.Puuid, user)
 }
@@ -321,7 +338,9 @@ func (this *MatterService) Upload(request *http.Request, file io.Reader, user *U
 
 	// token list, atuser list, isatall?, text
 	// send message on upload
-	chatbot.Send([]string{}, []string{}, false, fmt.Sprintf("%s 用户:%s(%s) 上传了 FileName: %s , 文件大小为: %v ", time.Now().Format("2006-01-02 15:04:05"), user.Username, util.GetIpAddress(request), filename, humanFileSize))
+
+	this.SendMsgToDingtalk(user, request, filename, humanFileSize, "upload")
+
 	this.logger.Info("upload %s %v ", filename, humanFileSize)
 
 	//check the size limit.

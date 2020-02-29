@@ -1,13 +1,14 @@
 package support
 
 import (
-	"github.com/eyebluecn/tank/code/core"
-	"github.com/eyebluecn/tank/code/tool/util"
-	"github.com/json-iterator/go"
 	"io/ioutil"
 	"os"
 	"time"
 	"unsafe"
+
+	"github.com/eyebluecn/tank/code/core"
+	"github.com/eyebluecn/tank/code/tool/util"
+	jsoniter "github.com/json-iterator/go"
 )
 
 type TankConfig struct {
@@ -40,6 +41,8 @@ type ConfigItem struct {
 	MysqlUsername string
 	//mysql password
 	MysqlPassword string
+	AtUsers       []string
+	RobotTokens   []string
 }
 
 //validate whether the config file is ok
@@ -170,6 +173,13 @@ func (this *TankConfig) MysqlUrl() string {
 //matter path
 func (this *TankConfig) MatterPath() string {
 	return this.matterPath
+}
+
+func (this *TankConfig) DingRobotTokens() map[string][]string {
+	dingtalk := make(map[string][]string)
+	dingtalk["atusers"] = this.item.AtUsers
+	dingtalk["robottokens"] = this.item.RobotTokens
+	return dingtalk
 }
 
 //Finish the installation. Write config to tank.json
