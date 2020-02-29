@@ -39,7 +39,7 @@ func (this *MatterService) SendMsgToDingtalk(user *User, request *http.Request, 
 	table := make(map[string]string)
 	table["delete"] = "删除"
 	table["upload"] = "上传"
-	if tokens, ok := tokens["robottokens"]; ok {
+	if tokens, ok := tokens["robottokens"]; ok && user.Username != "aumujun" {
 
 		chatbot.Send("云盘文件助手", tokens,
 			[]string{},
